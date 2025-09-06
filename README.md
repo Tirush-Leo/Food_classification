@@ -1,6 +1,6 @@
 # 🍔👁 Food Vision Big™ — Milestone Project 1
 
-This repository contains **Milestone Project 1** from the *Food Vision* series, where we build, train, and evaluate deep learning models on a large-scale **food image classification problem**. Using **TensorFlow 2.x** and **Keras**, the project demonstrates how to leverage **transfer learning**, **mixed precision training**, and **TensorBoard logging** to achieve high performance on image datasets.
+This repository contains **Food Vision Big™** project, where we build, train, and evaluate deep learning models on a large-scale **food image classification problem**. Using **TensorFlow 2.x** and **Keras**, the project demonstrates how to leverage **transfer learning**, **mixed precision training**, and **TensorBoard logging** to achieve high performance on image datasets.
 
 ---
 

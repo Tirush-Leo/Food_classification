@@ -88,20 +88,20 @@ maintaining model accuracy.
 
 ### 🔧 GPU Compatibility
 
-Mixed precision training is **hardware-dependent**.\
+Mixed precision training is **hardware-dependent**.
 - Best supported on **NVIDIA GPUs with Tensor Cores** (Volta, Turing,
-Ampere, or newer).\
-- Examples:\
-- Tesla V100, T4\
-- RTX 20xx, RTX 30xx, RTX 40xx series\
-- A100, H100 data center GPUs\
+Ampere, or newer).
+- Examples:
+- Tesla V100, T4
+- RTX 20xx, RTX 30xx, RTX 40xx series
+- A100, H100 data center GPUs
 - On unsupported GPUs/CPUs, TensorFlow will automatically fall back to
 standard float32 precision.
 
 ### ✅ Benefits
 
--   Faster training on compatible GPUs\
--   Reduced memory footprint → allows larger batch sizes\
+-   Faster training on compatible GPUs
+-   Reduced memory footprint → allows larger batch sizes
 -   No significant drop in accuracy
 
 In this project, mixed precision reduced training time by **\~40%**
